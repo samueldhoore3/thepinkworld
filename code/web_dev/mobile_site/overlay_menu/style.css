@@ -8,8 +8,8 @@
     background-color: white;
     position: sticky;
     top: 0;
-    display: flex;
-    justify-content: end;
+    display: grid;
+    justify-content: right;
     cursor: pointer;
 }
 
@@ -35,7 +35,6 @@
 }
 
 .overlay a {
-    /*! padding: 1rem; */
     text-decoration: none;
     font-size: 2rem;
     color: black;
@@ -48,10 +47,6 @@
     color: red;
 }
 
-.overlay .closebtn {
-    position: absolute;
-}
-
 .mobile-nav {
     padding: 1rem 0;
 }
@@ -60,8 +55,9 @@
     font-size: 3.3rem;
     top: .5rem;
     right: 1rem;
-    display: flex;
+    display: grid;
     justify-content: right;
+    position: absolute;
 }
 
 /********************************************************************************************************************************/
