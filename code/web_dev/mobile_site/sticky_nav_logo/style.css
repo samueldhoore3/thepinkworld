@@ -1,0 +1,46 @@
+/* TOP NAV */
+.hamburger {
+    width: 2rem;
+    padding: 1rem;
+}
+
+.topbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: grid;
+    justify-content: right;
+    cursor: pointer;
+    z-index: 1;
+    transform:translate3d(0,0,0);
+}
+
+/* TOP LOGO */
+.top-logo img {
+    z-index: 2;
+    transform:translate3d(0,0,0);
+    height: 4rem;
+    width: auto;
+}
+.top-logo {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}
+
+/********************************************************************************************************************************/
+/* GENERAL */
+/********************************************************************************************************************************/
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 100%;
+}
